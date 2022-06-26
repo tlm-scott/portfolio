@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
+
 import React from 'react';
 import weldImg from '../public/assets/projects/weldlearn.png';
 import cryptoImg from '../public/assets/projects/crypto.png'
@@ -20,7 +19,7 @@ const Projects = () => {
             title='Welding Course'
             backgroundImg={weldImg}
             projectUrl='/weld'
-            tech='React JS'
+            tech='WordPress PHP'
           />
           <ProjectItem
             title='Crypto App'
@@ -33,7 +32,7 @@ const Projects = () => {
             title='Tax Site'
             backgroundImg={taxImg}
             projectUrl='/tax'
-            tech='React JS'
+            tech='WordPress PHP'
 
           />
           <ProjectItem

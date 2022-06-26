@@ -11,7 +11,7 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false)
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
-  const [position, setPosition] = useState('fixed')
+ // const [position, setPosition] = useState('fixed')
   const router = useRouter();
 
  useEffect(() => {
@@ -114,18 +114,38 @@ const Navbar = () => {
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                <a 
+                href='https://linkedin.com/in/james-scott-a68577205'
+                target='_blank'
+                rel='noreferrer'
+                >
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaLinkedinIn />
                 </div>
+                </a>
+                <a 
+                href='https://github.com/tlm-scott/portfolio'
+                target='_blank'
+                rel='noreferrer'
+                >
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaGithub />
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                </a>
+                <Link href="/#contact">
+                <div
+                onClick={() => setNav(false)}
+                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <AiOutlineMail />
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                </Link>
+                <Link href="/#resume">
+                <div
+                onClick={() => setNav(false)}
+                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <BsFillPersonLinesFill />
                 </div>
+                </Link>
               </div>
             </div>
           </div>

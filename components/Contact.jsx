@@ -52,7 +52,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://linkedin.com/in/james-scott-a68577205'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/tlm-scott/portfolio'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -90,7 +90,7 @@ const Contact = () => {
             <div className='p-4'>
               <form
                 onSubmit={handleSubmit}
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/6624671d-a258-469f-9e6f-35b458a34ab3'
                 method='POST'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
